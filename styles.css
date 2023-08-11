@@ -1,0 +1,97 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    height: 100vh;
+    font-family: Poppins;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    color: hsl(257, 7%, 63%);
+    font-weight: bold;
+    padding-left: 120px;
+    padding-top: 50px;
+    
+}
+
+.features{
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.resour{
+    padding-left: 30px;
+}
+
+header img {
+    width: 130px;
+    height: 33px;
+}
+
+.login{
+    margin-left: auto;
+    margin-right: 70px;
+}
+.sign{
+    padding-right: 120px;
+}
+
+
+.contenedormain {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+
+}
+
+.contenedormainsection {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contenedormaintitulo {
+    font-size: 85px;
+    font-weight: 700;
+    margin-right: 100px;
+
+
+}
+
+.contenedormaintext {
+    font-size: 18px;
+    color: hsl(257, 7%, 63%);
+    margin-right: 230px;
+
+}
+
+.contenedormainboton {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: hsl(180, 66%, 49%);
+    margin-top: 25px;
+    margin-right: 480px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.workimg {}
+
+
+footer {
+    display: flex;
+}
