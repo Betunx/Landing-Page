@@ -7,9 +7,15 @@ html {
 
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     font-family: Poppins;
     margin: 0;
+    padding: 0;
+    
+}
+
+.contenedor{
+    max-width: 1440px;
 }
 
 header {
@@ -21,15 +27,15 @@ header {
     font-weight: bold;
     padding-left: 120px;
     padding-top: 50px;
-    
+
 }
 
-.features{
+.features {
     padding-left: 50px;
     padding-right: 30px;
 }
 
-.resour{
+.resour {
     padding-left: 30px;
 }
 
@@ -38,58 +44,52 @@ header img {
     height: 33px;
 }
 
-.login{
+.login {
     margin-left: auto;
     margin-right: 70px;
 }
-.sign{
-    padding-right: 120px;
+
+.sign {
+    margin-right: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: aqua;
+    border-radius: 15px;
 }
 
 
 .contenedormain {
     display: flex;
-    flex-direction: row;
     margin-top: 80px;
     margin-bottom: 80px;
+    padding-left: 120px;
 
-
-}
-
-.contenedormainsection {
-    display: flex;
-    flex-direction: column;
 
 }
 
 .contenedormaintitulo {
     font-size: 85px;
     font-weight: 700;
-    margin-right: 100px;
-
-
 }
 
 .contenedormaintext {
     font-size: 18px;
     color: hsl(257, 7%, 63%);
-    margin-right: 230px;
-
 }
 
 .contenedormainboton {
     text-align: center;
     font-size: 18px;
-    color: white;
-    background-color: hsl(180, 66%, 49%);
-    margin-top: 25px;
-    margin-right: 480px;
-    padding: 10px 10px;
-    border: none;
-    border-radius: 20px;
+    color: rgb(190, 57, 57);
+    
 }
 
-.workimg {}
+.workimg {
+    padding-left: 100px;
+    flex: 2;
+}
 
 
 footer {
