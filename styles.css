@@ -10,28 +10,28 @@ body {
     min-height: 100vh;
     font-family: Poppins;
     margin: 0;
-    padding: 0;
-    
+    padding-top: 40px;
+    padding-left: 120px;
+    max-width: 1440px;
+
 }
 
-.contenedor{
-    max-width: 1440px;
-}
+
 
 header {
     display: flex;
     flex-direction: row;
     align-items: center;
     font-size: 18px;
-    color: hsl(257, 7%, 63%);
-    font-weight: bold;
-    padding-left: 120px;
-    padding-top: 50px;
+    font-family: 'Poppins-Light';
+    color: hsl(0, 3%, 60%);
+    font-weight: 800;
+
 
 }
 
 .features {
-    padding-left: 50px;
+    padding-left: 30px;
     padding-right: 30px;
 }
 
@@ -46,52 +46,79 @@ header img {
 
 .login {
     margin-left: auto;
-    margin-right: 70px;
+    margin-right: 40px;
 }
 
 .sign {
     margin-right: 120px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background: aqua;
-    border-radius: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: hsl(180, 66%, 49%);
+    color: white;
+    border-radius: 20px;
 }
 
 
 .contenedormain {
     display: flex;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    padding-left: 120px;
+    flex-direction: row;
 
 
+}
+
+.contenedormain2 {
+    margin-top: 120px;
+    box-sizing: content-box;
+    flex-direction: column;
 }
 
 .contenedormaintitulo {
-    font-size: 85px;
+    font-family: 'Poppins-SemiBold';
+    font-size: 75px;
     font-weight: 700;
+
+
+
+
+
 }
 
 .contenedormaintext {
-    font-size: 18px;
-    color: hsl(257, 7%, 63%);
+    font-family: 'Poppins-Light';
+    font-size: 22px;
+    color: hsl(0, 3%, 60%);
+    font-weight: 500;
+    line-height: 1.5;
+
+
 }
 
 .contenedormainboton {
+
     text-align: center;
     font-size: 18px;
-    color: rgb(190, 57, 57);
-    
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+    color: white;
+    background: hsl(180, 66%, 49%);
+    border-radius: 22px;
+
+    padding: 12px;
+
+
+
 }
 
 .workimg {
-    padding-left: 100px;
-    flex: 2;
+    box-sizing: content-box;
+    padding-top: 50px;
+
 }
 
 
 footer {
     display: flex;
+
 }
