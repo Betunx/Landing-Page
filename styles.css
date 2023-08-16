@@ -168,55 +168,105 @@ header img {
 
 .advtitle {
     font-family: 'Poppins-Bold';
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
 .advtext {
     font-family: 'Poppins-Light';
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 200;
     line-height: 1.5;
     color: hsl(0, 3%, 60%);
-
 }
+
 
 .cuadros {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
 
-    .brand {
-        flex-direction: column;
-        background-color: white;
-        padding-right: 70px;
-        padding-top: 100px;
-        padding-bottom: 40px;
-        margin-right: 30px;
+}
 
 
-    }
+.brand {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    margin-right: 30px;
+}
 
-    .detailed {
-        flex-direction: column;
-        background-color: white;
-        padding-right: 70px;
-        padding-top: 100px;
-        padding-bottom: 40px;
-        margin-right: 30px;
-        margin-top: 50px;
-    }
+.btitle {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
 
-    .fully {
-        flex-direction: column;
-        background-color: white;
-        padding-right: 80px;
-        padding-top: 100px;
-        padding-bottom: 40px;
-        margin-top: 100px;
+.btext {
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(0, 3%, 60%);
+}
 
-    }
+.detailed {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    margin-right: 30px;
+    margin-top: 50px;
+
+}
+
+.dtitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.dtext {
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(0, 3%, 60%);
+    text-align: left;
+    margin-top: 20px;
+}
+
+.fully {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    margin-top: 100px;
+
+}
+
+.ftitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.ftext {
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(0, 3%, 60%);
+    text-align: left;
+    margin-top: 30px;
+}
 
 
 
@@ -225,8 +275,6 @@ header img {
 
 
 
-
-    footer {
-        display: flex;
-
-    }
+footer {
+    display: flex;
+}
