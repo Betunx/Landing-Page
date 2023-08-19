@@ -31,10 +31,10 @@
   <body>
     <header>
       <img src="./imgs/logo.svg" alt="logo" />
-      <span class="features">Features</span>
-      <span>Pricing</span>
-      <span class="resour">Resources</span>
-      <span class="login">Login</span>
+      <span id="btnfeatures" class="features">Features</span>
+      <span id="btnpricing" class="pricing">Pricing</span>
+      <span id="btnresour" class="resour">Resources</span>
+      <span id="btnlogin" class="login">Login</span>
       <span class="sign">Sign Up</span>
     </header>
 
@@ -48,7 +48,7 @@
           Build your brand’s recognition and get detailed <br />
           insights on how your links are performing</span
         >
-        <span class="contenedormainboton">Get Started</span>
+        <span id="btnget1" class="contenedormainboton">Get Started</span>
       </div>
 
       <div class="workimg">
@@ -57,8 +57,8 @@
     </div>
 
     <div class="url">
-      <span class="link">Shorten a link here...</span>
-      <span class="short">Shorten It!</span>
+      <span id="inputlink" class="link">Shorten a link here...</span>
+      <span id="btnshort" class="short">Shorten It!</span>
     </div>
 
     <div class="contenedoradv">
@@ -105,46 +105,48 @@
 
     <div class="boost">
       <span class="boosttext">Boost your links today</span>
-      <span class="gtext">Get Started</span>
+      <span id="btnget2" class="gtext">Get Started</span>
     </div>
 
     <footer>
       <div class="bshort"><span>Shortly</span></div>
 
       <div class="fofe">
-        <div class="fofetitle"><span>Features</span></div>
+        <div id="btnfeatures" class="fofetitle"><span>Features</span></div>
         <div class="fofetext">
-          <div><span>Link Shortening</span></div>
-          <div><span>Branded Links</span></div>
-          <div><span>Analytics</span></div>
+          <div id="btnlinkshortening"><span>Link Shortening</span></div>
+          <div id="btnbranded"><span>Branded Links</span></div>
+          <div id="btnanalytics"><span>Analytics</span></div>
         </div>
       </div>
 
       <div class="fore">
-        <div class="foretitle"><span>Resources</span></div>
+        <div id="btnresour" class="foretitle"><span>Resources</span></div>
         <div class="foretext">
-          <span>Blog</span>
-          <span>Developers</span>
-          <span>Support</span>
+          <span id="btnblog">Blog</span>
+          <span id="btndevelopers">Developers</span>
+          <span id="btnsupport">Support</span>
         </div>
       </div>
 
       <div class="foco">
-        <div class="focotitle"><span>Company</span></div>
+        <div id="btncompany" class="focotitle"><span>Company</span></div>
         <div class="focotext">
-          <span>About</span>
-          <span>Our Team</span>
-          <span>Analytics</span>
-          <span>Contact</span>
+          <span id="btnabout">About</span>
+          <span id="btnteam">Our Team</span>
+          <span id="btncareers">Careers</span>
+          <span id="btncontact">Contact</span>
         </div>
       </div>
 
       <div class="icons">
-        <img src="./imgs/icon-facebook.svg" alt="fb" />
-        <img src="./imgs/icon-twitter.svg" alt="tw" />
-        <img src="./imgs/icon-pinterest.svg" alt="pi" />
-        <img src="./imgs/icon-instagram.svg" alt="in" />
+        <img src="./imgs/icon-facebook.svg" alt="fb" id="btnfb" />
+        <img src="./imgs/icon-twitter.svg" alt="tw" id="btntw" />
+        <img src="./imgs/icon-pinterest.svg" alt="pi" id="btnpin" />
+        <img src="./imgs/icon-instagram.svg" alt="in" id="btninsta" />
       </div>
     </footer>
+
+    <script src="./buttons.js"></script>
   </body>
 </html>
