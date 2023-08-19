@@ -15,21 +15,59 @@ body {
 header {
     padding-left: 120px;
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     align-items: center;
     font-size: 18px;
-    font-family: 'Poppins-Light';
+    font-family: "Poppins-Light";
     color: hsl(0, 3%, 60%);
     font-weight: 800;
 }
 
 .features {
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
+.features:hover {
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 50px;
+    background-color: hsl(180, 45%, 78%);
+    ;
+}
+
+.pricing {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pricing:hover {
+    padding: 10px;
+    border-radius: 50px;
+    background-color: hsl(180, 45%, 78%);
+
+}
+
+
 .resour {
-    padding-left: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.resour:hover {
+    margin-left: 20px;
+    margin-right: 20px;
+
+    padding: 10px;
+    border-radius: 50px;
+    background-color: hsl(180, 45%, 78%);
+
 }
 
 header img {
@@ -40,7 +78,17 @@ header img {
 .login {
     margin-left: auto;
     margin-right: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
+
+.login:hover{
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: hsl(180, 45%, 78%);
+}
+
 
 .sign {
     margin-right: 120px;
@@ -51,6 +99,12 @@ header img {
     background: hsl(180, 66%, 49%);
     color: white;
     border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sign:hover{
+    background-color: hsl(180, 13%, 14%);
 }
 
 
@@ -69,13 +123,13 @@ header img {
 }
 
 .contenedormaintitulo {
-    font-family: 'Poppins-SemiBold';
+    font-family: "Poppins-SemiBold";
     font-size: 75px;
     font-weight: 700;
 }
 
 .contenedormaintext {
-    font-family: 'Poppins-Light';
+    font-family: "Poppins-Light";
     font-size: 22px;
     font-weight: 500;
     line-height: 1.5;
@@ -100,9 +154,6 @@ header img {
     padding-top: 50px;
 }
 
-
-
-
 .url {
     height: 150px;
     margin-right: 120px;
@@ -113,7 +164,6 @@ header img {
     background-color: hsl(257, 27%, 26%);
     border-radius: 10px;
     position: absolute;
-
 }
 
 .link {
@@ -123,13 +173,12 @@ header img {
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 10px;
-    font-family: 'Poppins-Light';
+    font-family: "Poppins-Light";
     font-size: 22px;
     font-weight: 500;
     line-height: 1.5;
     color: hsl(0, 3%, 60%);
     background-color: white;
-
 }
 
 .short {
@@ -146,7 +195,6 @@ header img {
     padding-right: 40px;
     margin-right: 50px;
     margin-left: 20px;
-
 }
 
 .contenedoradv {
@@ -156,7 +204,6 @@ header img {
     padding-right: 120px;
     padding-bottom: 140px;
     background-color: hsl(210, 100%, 95%);
-
 }
 
 .adv {
@@ -169,20 +216,19 @@ header img {
 }
 
 .advtitle {
-    font-family: 'Poppins-Bold';
+    font-family: "Poppins-Bold";
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
 .advtext {
-    font-family: 'Poppins-Light';
+    font-family: "Poppins-Light";
     font-size: 24px;
     font-weight: 200;
     line-height: 1.5;
     color: hsl(0, 3%, 60%);
 }
-
 
 .cuadros {
     display: flex;
@@ -191,10 +237,7 @@ header img {
     height: 350px;
     padding: 0;
     margin-top: 20px;
-
 }
-
-
 
 .brand {
     display: flex;
@@ -218,8 +261,6 @@ header img {
     text-align: center;
     margin: 0;
     margin-top: 160px;
-
-
 }
 
 .btitle {
@@ -245,7 +286,6 @@ header img {
     width: 370px;
     height: 200px;
     margin-top: 50px;
-
 }
 
 .line2 {
@@ -257,7 +297,6 @@ header img {
     border-color: hsl(180, 66%, 49%);
     text-align: center;
     margin-top: 165px;
-
 }
 
 .dtitle {
@@ -285,7 +324,6 @@ header img {
     width: 370px;
     height: 200px;
     margin-top: 100px;
-
 }
 
 .ftitle {
@@ -333,11 +371,7 @@ header img {
     padding-bottom: 12px;
     padding-left: 45px;
     padding-right: 45px;
-
 }
-
-
-
 
 footer {
     display: flex;
@@ -345,14 +379,12 @@ footer {
     padding-top: 70px;
     padding-left: 120px;
     height: 250px;
-
 }
 
 .bshort {
     color: white;
     font-size: 35px;
     margin-right: 250px;
-
 }
 
 .fofe {
