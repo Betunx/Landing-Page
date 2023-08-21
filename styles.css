@@ -38,32 +38,30 @@ header {
     margin-right: 20px;
     border-radius: 50px;
     background-color: hsl(180, 45%, 78%);
-    ;
+
 }
 
 .pricing {
+    margin-right: 15px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .pricing:hover {
-    padding: 10px;
+
     border-radius: 50px;
     background-color: hsl(180, 45%, 78%);
-
 }
 
 
 .resour {
-    margin-left: 30px;
+    margin-left: 15px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .resour:hover {
-    margin-left: 20px;
-    margin-right: 20px;
-
+    margin-left: 5px;
     padding: 10px;
     border-radius: 50px;
     background-color: hsl(180, 45%, 78%);
@@ -82,7 +80,7 @@ header img {
     transition: background-color 0.3s;
 }
 
-.login:hover{
+.login:hover {
     margin-right: 30px;
     padding: 10px;
     border-radius: 50px;
@@ -103,7 +101,7 @@ header img {
     transition: background-color 0.3s;
 }
 
-.sign:hover{
+.sign:hover {
     background-color: hsl(180, 13%, 14%);
 }
 
@@ -147,6 +145,11 @@ header img {
     padding: 12px;
     margin-top: 30px;
     margin-right: 300px;
+    cursor: pointer;
+}
+
+.contenedormainboton:hover {
+    background-color: hsl(180, 13%, 14%);
 }
 
 .workimg {
@@ -164,6 +167,7 @@ header img {
     background-color: hsl(257, 27%, 26%);
     border-radius: 10px;
     position: absolute;
+
 }
 
 .link {
@@ -179,6 +183,7 @@ header img {
     line-height: 1.5;
     color: hsl(0, 3%, 60%);
     background-color: white;
+
 }
 
 .short {
@@ -195,6 +200,11 @@ header img {
     padding-right: 40px;
     margin-right: 50px;
     margin-left: 20px;
+    cursor: pointer;
+}
+
+.short:hover {
+    background-color: hsl(180, 13%, 14%);
 }
 
 .contenedoradv {
@@ -371,6 +381,12 @@ header img {
     padding-bottom: 12px;
     padding-left: 45px;
     padding-right: 45px;
+    cursor: pointer;
+}
+
+.gtext:hover {
+    pointer-events: painted;
+    background-color: hsl(180, 13%, 14%);
 }
 
 footer {
