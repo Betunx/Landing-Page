@@ -409,9 +409,15 @@ footer {
     margin-top: 10px;
 }
 
+
 .fofetitle {
     color: white;
     margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.fofetitle:hover {
+    color: hsl(180, 66%, 49%);
 }
 
 .fofetext {
@@ -420,6 +426,21 @@ footer {
     text-align: left;
     color: hsl(0, 3%, 60%);
     gap: 12px;
+}
+
+.ft1:hover {
+    cursor: pointer;
+    color: hsl(180, 66%, 49%);
+}
+
+.ft2:hover {
+    cursor: pointer;
+    color: hsl(180, 66%, 49%);
+}
+
+.ft3:hover {
+    cursor: pointer;
+    color: hsl(180, 66%, 49%);
 }
 
 .fore {
@@ -431,6 +452,11 @@ footer {
 .foretitle {
     color: white;
     margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.foretitle:hover {
+    color: hsl(180, 66%, 49%);
 }
 
 .foretext {
@@ -439,6 +465,21 @@ footer {
     text-align: left;
     color: hsl(0, 3%, 60%);
     gap: 12px;
+}
+
+.fr1:hover {
+    cursor: pointer;
+    color: hsl(180, 66%, 49%);
+}
+
+.fr2:hover {
+    cursor: pointer;
+    color: hsl(180, 66%, 49%);
+}
+
+.fr3:hover {
+    cursor: pointer;
+    color: hsl(180, 66%, 49%);
 }
 
 .foco {
@@ -452,12 +493,39 @@ footer {
     margin-bottom: 30px;
 }
 
+.focotitle:hover {
+    cursor: pointer;
+    color: hsl(180, 66%, 49%);
+}
+
 .focotext {
     display: flex;
     flex-direction: column;
     text-align: left;
     color: hsl(0, 3%, 60%);
     gap: 12px;
+}
+
+
+
+.fc1:hover {
+    cursor: pointer;
+    color: hsl(180, 66%, 49%);
+}
+
+.fc2:hover {
+    cursor: pointer;
+    color: hsl(180, 66%, 49%);
+}
+
+.fc3:hover {
+    cursor: pointer;
+    color: hsl(180, 66%, 49%);
+}
+
+.fc4:hover {
+    cursor: pointer;
+    color: hsl(180, 66%, 49%);
 }
 
 .icons {
@@ -467,4 +535,25 @@ footer {
     width: 25px;
     height: 25px;
     gap: 25px;
+}
+
+
+.fb:hover {
+    cursor: pointer;
+    background-color: hsl(180, 66%, 49%);
+}
+
+.tw:hover {
+    cursor: pointer;
+    background-color: hsl(180, 66%, 49%);
+}
+
+.pi:hover {
+    cursor: pointer;
+    background-color: hsl(180, 66%, 49%);
+}
+
+.in:hover {
+    cursor: pointer;
+    background-color: hsl(180, 66%, 49%);
 }
