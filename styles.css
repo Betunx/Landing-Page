@@ -158,8 +158,12 @@ header img {
 }
 
 .url {
-    height: 150px;
-    margin-right: 120px;
+    min-height: 110px;
+    height: auto;
+    width: 1183px;
+    max-width: 1183px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-left: 120px;
     display: flex;
     align-items: center;
@@ -172,34 +176,44 @@ header img {
 
 .link {
     margin-left: 20px;
-    padding-left: 30px;
-    padding-right: 700px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 10px;
+    margin-right: 20px;
+    width: 960px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+  
     font-family: "Poppins-Light";
     font-size: 22px;
     font-weight: 500;
     line-height: 1.5;
     color: hsl(0, 3%, 60%);
     background-color: white;
+    border-radius: 10px;
+    cursor: text;
+   
 
 }
 
 .short {
+
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    width: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 2px;
     color: white;
     background: hsl(180, 66%, 49%);
-    border-radius: 10px;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-right: 50px;
-    margin-left: 20px;
+    border-radius: 30px;
     cursor: pointer;
 }
 
