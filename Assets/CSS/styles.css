@@ -1,3 +1,4 @@
+@media only screen and (min-width: 1024px) and (max-width: 1919px){
 html {
     margin: 0;
     padding: 0;
@@ -167,7 +168,7 @@ header img {
     margin-left: 120px;
     display: flex;
     align-items: center;
-    background-image: url(./imgs/bg-shorten-desktop.svg);
+    background-image: url(../imgs/bg-shorten-desktop.svg);
     background-color: hsl(257, 27%, 26%);
     border-radius: 10px;
     position: absolute;
@@ -175,7 +176,7 @@ header img {
 }
 
 .link {
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 20px;
     width: 960px;
     padding-top: 12.5px;
@@ -203,17 +204,15 @@ header img {
     align-items: center;
     margin-right: 40px;
     width: 130px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-
     font-size: 18px;
     font-weight: 300;
-    letter-spacing: 2px;
     color: white;
     background: hsl(180, 66%, 49%);
-    border-radius: 30px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -570,4 +569,5 @@ footer {
 .in:hover {
     cursor: pointer;
     background-color: hsl(180, 66%, 49%);
+}
 }
