@@ -1,0 +1,309 @@
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        min-height: 100vh;
+        font-family: Poppins;
+        margin: 0;
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    header {
+
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        font-size: 14px;
+        font-family: "Poppins-Light";
+        color: hsl(0, 3%, 60%);
+        font-weight: 800;
+    }
+
+    .shortly {
+        width: 80px;
+        height: auto;
+    }
+
+    .features {
+        margin-left: 15px;
+        margin-right: 10px;
+        transition: background-color 0.3s;
+    }
+
+    .pricing {
+        margin-right: 5px;
+        transition: background-color 0.3s;
+    }
+
+    .resour {
+        margin-left: 5px;
+        transition: background-color 0.3s;
+    }
+
+    .login {
+        margin-left: auto;
+        margin-right: 20px;
+        transition: background-color 0.3s;
+    }
+
+    .sign {
+
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background: hsl(180, 66%, 49%);
+        color: white;
+        border-radius: 20px;
+        transition: background-color 0.3s;
+    }
+
+
+    .contenedormain {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+        height: 350px;
+    }
+
+    .contenedormain2 {
+        display: flex;
+        flex-direction: column;
+        min-width: 50%;
+        margin-top: 80px;
+    }
+
+    .contenedormaintitulo {
+        font-family: "Poppins-SemiBold";
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    .contenedormaintext {
+        font-family: "Poppins-Light";
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 1.5;
+        color: hsl(0, 3%, 60%);
+    }
+
+    .contenedormainboton {
+
+        font-size: 16px;
+        font-weight: lighter;
+        text-align: center;
+        color: white;
+        background: hsl(180, 66%, 49%);
+        border-radius: 30px;
+        padding: 7px;
+        margin-top: 25px;
+        margin-right: 235px;
+    }
+
+    .workimg {
+        margin-top: 80px;
+        transform: scale(0.5);
+        transform-origin: top left;
+
+
+    }
+
+    .url {
+        min-height: 80px;
+        width: 648px;
+        max-width: 648px;
+        margin-left: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: flex;
+        align-items: center;
+        background-image: url(../imgs/bg-boost-desktop.svg);
+        background-color: hsl(257, 27%, 26%);
+        border-radius: 7px;
+        position: absolute;
+
+    }
+
+    .link {
+        margin-left: 35px;
+        width: 437px;
+        max-width: 437px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        text-align: start;
+        justify-content: center;
+        align-items: center;
+        font-family: "Poppins-Light";
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.5;
+        color: hsl(0, 3%, 60%);
+        background-color: white;
+        border-radius: 7px;
+
+    }
+
+    .short {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-right: 40px;
+        width: 130px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 20px;
+        font-size: 18px;
+        font-weight: 300;
+        color: white;
+        background: hsl(180, 66%, 49%);
+        border-radius: 10px;
+
+    }
+
+    .contenedoradv {
+        margin-top: 80px;
+        padding-top: 140px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+        background-color: hsl(210, 100%, 95%);
+    }
+
+    .adv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .advtitle {
+        font-family: "Poppins-Bold";
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .advtext {
+        font-family: "Poppins-Light";
+        font-size: 18px;
+        font-weight: 200;
+        color: hsl(0, 3%, 60%);
+        margin-bottom: 60px;
+    }
+
+    .cuadros {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .iconb {
+        width: 5%;
+        background-color: hsl(257, 27%, 26%);
+        border-radius: 50%;
+        padding: 10px;
+        position: absolute;
+        margin-left: 20px;
+    }
+
+
+
+    .brand {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        text-align: start;
+        background-color: white;
+        margin-top: 30px;
+        margin-right: 290px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        
+    }
+
+    .line1 {
+        background: hsl(180, 66%, 49%);
+        color: hsl(180, 66%, 49%);
+        height: 30px;
+        width: 8px;
+        font-size: 1px;
+        text-align: center;
+        margin-left: 200px;
+
+    }
+
+    .btitle {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    .btext {
+        font-size: 18px;
+        font-weight: lighter;
+        color: hsl(0, 3%, 60%);
+    }
+
+    .icond{
+        width: 5%;
+        background-color: hsl(257, 27%, 26%);
+        border-radius: 50%;
+        padding: 10px;
+        margin-left: 20px;
+        position: absolute;
+
+    }
+
+    .detailed {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        text-align: start;
+        background-color: white;
+        margin-right: 190px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        margin-left: 100px;
+        
+    }
+    
+    .line2 {
+        background: hsl(180, 66%, 49%);
+        color: hsl(180, 66%, 49%);
+        height: 30px;
+        width: 8px;
+        font-size: 1px;
+        text-align: center;
+        margin-left: 300px;
+    }
+    
+    .dtitle {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .dtext {
+        font-size: 18px;
+        color: hsl(0, 3%, 60%);
+        margin-top: 20px;
+    }
+}
