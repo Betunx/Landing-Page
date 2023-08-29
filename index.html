@@ -4,9 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shortly URL shortening API</title>
-    <link rel="stylesheet" href="./Assets/CSS/styles.css" />
-    <link rel="stylesheet" href="./Assets/CSS/tablet.css" />
-    <link rel="stylesheet" href="./Assets/CSS/mobile.css" />
+
+    <link
+      rel="stylesheet"
+      media=" only screen and (max-width: 767px)"
+      href="./Assets/CSS/mobile.css"
+    />
+
+    <link
+      rel="stylesheet"
+      media=" only screen and (min-width: 768px)
+      and
+      (max-width:
+      1023px)"
+      href="./Assets/CSS/tablet.css"
+    />
+
+    <link
+      rel="stylesheet"
+      media=" only screen and (min-width: 1024px)
+      and
+      (max-width:
+      1919px)"
+      href="./Assets/CSS/styles.css"
+    />
+
     <link
       rel="stylesheet"
       type="text/css"
@@ -32,7 +54,7 @@
 
   <body>
     <header>
-      <img src="./Assets/imgs/logo.svg" alt="logo" />
+      <img src="./Assets/imgs/logo.svg" alt="logo" class="shortly" />
       <span id="btnfeatures" class="features">Features</span>
       <span id="btnpricing" class="pricing">Pricing</span>
       <span id="btnresour" class="resour">Resources</span>
@@ -75,6 +97,7 @@
       </div>
 
       <div class="cuadros">
+        <img src="./Assets/imgs/icon-brand-recognition.svg" alt="icon" class="iconb">
         <div class="brand">
           <span class="btitle">Brand Recognition</span>
           <span class="btext">
@@ -85,7 +108,7 @@
         </div>
 
         <div class="line1"><span>.</span></div>
-
+        <img src="./Assets/imgs/icon-detailed-records.svg" alt="icond" class="icond">
         <div class="detailed">
           <span class="dtitle">Detailed Records</span>
           <span class="dtext"
@@ -146,9 +169,24 @@
       </div>
 
       <div class="icons">
-        <img src="./Assets/imgs/icon-facebook.svg" alt="fb" id="btnfb" class="fb" />
-        <img src="./Assets/imgs/icon-twitter.svg" alt="tw" id="btntw" class="tw" />
-        <img src="./Assets/imgs/icon-pinterest.svg" alt="pi" id="btnpin" class="pi" />
+        <img
+          src="./Assets/imgs/icon-facebook.svg"
+          alt="fb"
+          id="btnfb"
+          class="fb"
+        />
+        <img
+          src="./Assets/imgs/icon-twitter.svg"
+          alt="tw"
+          id="btntw"
+          class="tw"
+        />
+        <img
+          src="./Assets/imgs/icon-pinterest.svg"
+          alt="pi"
+          id="btnpin"
+          class="pi"
+        />
         <img
           src="./Assets/imgs/icon-instagram.svg"
           alt="in"
@@ -158,6 +196,6 @@
       </div>
     </footer>
 
-    <script src="./buttons.js"></script>
+    <script src="./Assets/JS/buttons.js"></script>
   </body>
 </html>
