@@ -11,12 +11,11 @@
         font-family: Poppins;
         margin: 0;
         padding-top: 40px;
-        padding-left: 40px;
+        padding-left: 80px;
         padding-right: 40px;
     }
 
     header {
-
         display: flex;
         flex-direction: row;
         align-content: center;
@@ -55,7 +54,6 @@
     }
 
     .sign {
-
         padding-left: 15px;
         padding-right: 15px;
         padding-top: 5px;
@@ -96,7 +94,6 @@
     }
 
     .contenedormainboton {
-
         font-size: 16px;
         font-weight: lighter;
         text-align: center;
@@ -112,8 +109,6 @@
         margin-top: 80px;
         transform: scale(0.5);
         transform-origin: top left;
-
-
     }
 
     .url {
@@ -129,7 +124,6 @@
         background-color: hsl(257, 27%, 26%);
         border-radius: 7px;
         position: absolute;
-
     }
 
     .link {
@@ -148,7 +142,6 @@
         color: hsl(0, 3%, 60%);
         background-color: white;
         border-radius: 7px;
-
     }
 
     .short {
@@ -167,13 +160,11 @@
         color: white;
         background: hsl(180, 66%, 49%);
         border-radius: 10px;
-
     }
 
     .contenedoradv {
         margin-top: 80px;
         padding-top: 140px;
-        padding-left: 40px;
         padding-right: 40px;
         padding-bottom: 40px;
         background-color: hsl(210, 100%, 95%);
@@ -184,6 +175,7 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        width: 100vw;
     }
 
     .advtitle {
@@ -208,12 +200,13 @@
 
 
     .iconb {
-        width: 5%;
+        width: 4%;
         background-color: hsl(257, 27%, 26%);
         border-radius: 50%;
-        padding: 10px;
+        padding: 15px;
+        overflow: visible;
         position: absolute;
-        margin-left: 20px;
+        margin-left: 25px;
     }
 
 
@@ -230,7 +223,6 @@
         padding-top: 50px;
         padding-bottom: 30px;
         padding-left: 20px;
-        
     }
 
     .line1 {
@@ -240,17 +232,13 @@
         width: 8px;
         font-size: 1px;
         text-align: center;
-        margin-left: 200px;
-
+        margin-left: 280px;
     }
 
     .btitle {
-        display: flex;
-        flex-direction: column;
         margin-bottom: 20px;
         font-size: 20px;
         font-weight: bold;
-
     }
 
     .btext {
@@ -259,14 +247,14 @@
         color: hsl(0, 3%, 60%);
     }
 
-    .icond{
-        width: 5%;
+    .icond {
+        width: 4%;
         background-color: hsl(257, 27%, 26%);
         border-radius: 50%;
-        padding: 10px;
-        margin-left: 20px;
+        padding: 15px;
+        margin-left: 165px;
+        margin-top: 245px;
         position: absolute;
-
     }
 
     .detailed {
@@ -276,14 +264,13 @@
         align-items: start;
         text-align: start;
         background-color: white;
-        margin-right: 190px;
+        margin-right: 141px;
+        margin-left: 141px;
         padding-top: 50px;
         padding-bottom: 30px;
         padding-left: 20px;
-        margin-left: 100px;
-        
     }
-    
+
     .line2 {
         background: hsl(180, 66%, 49%);
         color: hsl(180, 66%, 49%);
@@ -291,18 +278,52 @@
         width: 8px;
         font-size: 1px;
         text-align: center;
-        margin-left: 300px;
+        margin-left: 430px;
     }
-    
+
+    .iconf {
+        width: 4%;
+        background-color: hsl(257, 27%, 26%);
+        border-radius: 50%;
+        padding: 15px;
+        margin-top: 480px;
+        margin-left: 320px;
+        position: absolute;
+    }
+
     .dtitle {
-        display: flex;
-        flex-direction: column;
         font-size: 20px;
         font-weight: bold;
     }
-    
+
     .dtext {
         font-size: 18px;
+        font-weight: lighter;
+        color: hsl(0, 3%, 60%);
+        margin-top: 20px;
+    }
+
+    .fully {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        text-align: start;
+        background-color: white;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        margin-left: 290px;
+    }
+
+    .ftitle {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .ftext {
+        font-size: 18px;
+        font-weight: lighter;
         color: hsl(0, 3%, 60%);
         margin-top: 20px;
     }
