@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1024px) and (max-width: 1919px){
+@media only screen and (min-width: 1024px) {
 html {
     margin: 0;
     padding: 0;
@@ -234,7 +234,7 @@ header img {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     margin-top: 100px;
 }
 
@@ -259,7 +259,17 @@ header img {
     width: 1200px;
     height: 350px;
     padding: 0;
-    margin-top: 20px;
+   
+}
+
+.iconb {
+    width: 3%;
+    background-color: hsl(257, 27%, 26%);
+    border-radius: 50%;
+    padding: 20px;
+    margin-left: 30px;
+    overflow: visible;
+    position: absolute;
 }
 
 .brand {
@@ -268,6 +278,7 @@ header img {
     background-color: white;
     font-size: 30px;
     font-weight: bolder;
+    margin-top: 30px;
     padding-left: 30px;
     padding-top: 70px;
     width: 370px;
@@ -298,6 +309,16 @@ header img {
     color: hsl(0, 3%, 60%);
 }
 
+.icond {
+    width: 3%;
+    background-color: hsl(257, 27%, 26%);
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 45px;
+    margin-left: 430px;
+    position: absolute;
+}
+
 .detailed {
     display: flex;
     flex-direction: column;
@@ -308,7 +329,7 @@ header img {
     padding-top: 70px;
     width: 370px;
     height: 200px;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .line2 {
@@ -335,6 +356,16 @@ header img {
     margin-top: 20px;
 }
 
+.iconf {
+    width: 3%;
+    background-color: hsl(257, 27%, 26%);
+    border-radius: 50%;
+    padding: 20px;
+    margin-left: 830px;
+    margin-top: 95px;
+    position: absolute;
+}
+
 .fully {
     display: flex;
     flex-direction: column;
@@ -346,7 +377,7 @@ header img {
     margin-right: 30px;
     width: 370px;
     height: 200px;
-    margin-top: 100px;
+    margin-top: 130px;
 }
 
 .ftitle {
@@ -366,7 +397,7 @@ header img {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-image: url(./imgs/bg-boost-desktop.svg);
+    background-image: url(../imgs/bg-boost-desktop.svg);
     background-color: hsl(257, 27%, 26%);
     justify-content: center;
     align-content: center;
