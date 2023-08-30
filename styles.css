@@ -397,7 +397,7 @@ header img {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-image: url(./imgs/bg-boost-desktop.svg);
+    background-image: url(../imgs/bg-boost-desktop.svg);
     background-color: hsl(257, 27%, 26%);
     justify-content: center;
     align-content: center;
