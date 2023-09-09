@@ -25,6 +25,10 @@ header {
     font-weight: 800;
 }
 
+#nav{
+    display: none;
+}
+
 .features {
     margin-left: 30px;
     margin-right: 30px;
