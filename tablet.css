@@ -26,10 +26,10 @@
         padding-right: 80px;
     }
 
-    #nav{
+    #nav {
         display: none;
     }
-    
+
 
     .shortly {
         width: 80px;
@@ -116,6 +116,10 @@
         margin-top: 80px;
         transform: scale(0.5);
         transform-origin: top left;
+    }
+
+    .workimgmobile {
+        display: none;
     }
 
     .url {
@@ -431,7 +435,7 @@
         padding-top: 10px;
         list-style: none;
         margin-right: 70px;
-       
+
     }
 
     .foretitle {
@@ -468,7 +472,7 @@
         padding-top: 10px;
         list-style: none;
         margin-right: 70px;
-        
+
     }
 
     .focotitle {
