@@ -162,6 +162,10 @@ header img {
     padding-top: 50px;
 }
 
+ .workimgmobile {
+        display: none;
+    }
+
 .url {
     min-height: 110px;
     height: auto;
